@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahoo! Messenger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="nav-bar">
+            <img class="nav-bar__logo" src="./images/logo.png" alt="yahoo-logo">
+
+            <ul class="nav-bar__link">
+                
+                <li class="nav-bar__item"><a href="#">Messenger</a></li>
+                <li class="nav-bar__item"><a href="#">Help</a></li>
+            </ul>
+
+        </nav>
+
+
+        <div class="card">
+            <img class="card__img" src="images/hero-img.png">
+            <h1 class="card__header">Account Login</h1>
+            <h2 class="card__sub-header">Hey enter your detail to get sign in to your account</h2>
+
+            <form class="form ">
+                <div class="form__input-container">
+                    <i class="fa-solid fa-user form__user-icon"></i>
+                    <label class="form__label" for="yahoo-id">Yahoo! ID:</label>
+                    <input class="form__input" type="text" name="card__input--text" id="user-id">
+                </div>
+
+                <div class="input-container">
+                    <i class="fa-solid fa-lock form__lock-icon"></i>
+                    <label class="form__label" for="yahoo-id">Password:</label>
+                    <input class="form__input" type="password" name="card__input--password" id="user-pass">
+                </div>
+
+            </form>
+
+            <div class="checkbox-group">
+
+                <label class="form-control">
+                    <input type="checkbox" name="checkbox" />
+                    Remember my ID & password
+                </label>
+
+                <label class="form-control">
+                    <input type="checkbox" name="checkbox" />
+                    Sign in automatically
+                </label>
+
+                <label class="form-control">
+                    <input type="checkbox" name="checkbox" />
+                    Sign in as invisible to everyone
+                </label>
+
+
+
+            </div>
+
+
+            <div class="btn-container">
+                <button class="signin-btn">Sign in</button>
+            </div>
+            
+            <div class="select-container">
+                <label class="select-label">Language:</label>
+                <div class="select">                
+                    <select class="dropdown-container__dropdown" name="language" id="lang">
+                        <option class="dropdown-container__value"value="eng">English(U.S)</option>
+                        <option class="dropdown-container__value"value="jap">Japanese</option>               
+                        <option class="dropdown-container__value"value="Deu">Deutsch</option>
+                               
+                      </select>
+                </div>
+                
+            </div>
+
+            <div class="footer-container">
+                <a href="#"class="footer-container__text">Get a New Yahoo! ID..</a>
+                <a href="#"class="footer-container__text">Forgot your password..</a>
+            </div>
+          
+            
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
